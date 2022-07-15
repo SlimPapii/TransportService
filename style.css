@@ -105,6 +105,9 @@ body>header>nav>ul>li>a{
 header>div>img{
     order: 1;
     padding: 1em 0;
+    object-fit: cover;
+    min-width: 320px;
+    max-width: 960px;
 }
 header>div>div{
     order: 2;
@@ -339,6 +342,13 @@ header>div>div>p{
     display: flex;
     flex-direction: column;
 }
+body>section.contact>div>img{
+    width: 100%;
+    object-fit: cover;
+    min-width: 320px;
+    max-width: 960px;
+}
+.contact>
 .contact-form{
     /* border: 2px solid red; */
     padding: 1em;
