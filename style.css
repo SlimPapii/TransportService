@@ -37,7 +37,7 @@ p{
     color: #757575;
 }
 body>header{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("./pics/background.jpg") center/cover fixed no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://images.pexels.com/photos/1267325/pexels-photo-1267325.jpeg) center/cover fixed no-repeat;
 }
 /* navbar */
 nav{
@@ -233,7 +233,6 @@ header>div>div>p{
 
 /********************** Our services **************************/
 .service-section{
-    /* border: 2px solid red; */
     background-color: #f8f8f8;
 }
 .service-section>div{
@@ -350,7 +349,6 @@ body>section.contact>div>img{
 }
 .contact>
 .contact-form{
-    /* border: 2px solid red; */
     padding: 1em;
 }
 .contact-form>h2{
@@ -402,6 +400,7 @@ body>section.contact>div>img{
 @media (min-width: 1024px){
     .contact-container {
         margin: 2em auto;
+        column-gap: 2rem;
         flex-direction: row;
     }
     .contact>div>img{
@@ -415,7 +414,6 @@ body>section.contact>div>img{
 }
 
 .contact>div>div>div>div:nth-child(2){
-    /* width: 90%; */
     margin: .65em auto 0;
 }
 .contact>div>div>div>div:nth-child(2)>textarea{
@@ -436,6 +434,7 @@ body>section.contact>div>img{
 /********** Testimonials section **********************/
 .testimonial{
     background-color: #f8f8f8;
+    padding-bottom: 1.5rem;
 }
 .testimonial>h2{
     text-align: center;
